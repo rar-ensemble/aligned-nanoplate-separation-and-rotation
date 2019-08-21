@@ -1,0 +1,273 @@
+---Reading bcp.input---
+Absolute valuing chi_bc
+chi_ab = 0.501604
+chi_bc = 0.018209
+chi_ac = 1.13437
+negative_chi_ab_flag = 0
+negative_chi_bc_flag = 1
+negative_chi_ac_flag = 0
+kappa = 50
+Nx0: 525 Lx0: 52.000000
+Nx1: 875 Lx1: 90.000000
+---Reading of bcp.input complete---
+
+---Initialization 1---
+
+V = 4680.000000
+N = 60
+fD = 0.500000
+a^2 = 0.040000
+---Initialization 1 complete---
+
+---Allocating memory---
+Processor 1 allocated 137.362400 MB
+Processor 0 allocated 137.362400 MB
+Processor 4 allocated 137.362400 MB
+Processor 11 allocated 135.475200 MB
+Processor 3 allocated 137.362400 MB
+Processor 8 allocated 137.362400 MB
+Processor 10 allocated 137.362400 MB
+Processor 2 allocated 137.362400 MB
+Processor 6 allocated 137.362400 MB
+Processor 9 allocated 137.362400 MB
+Processor 5 allocated 137.362400 MB
+Processor 7 allocated 137.362400 MB
+---Memory allocation complete---
+
+------Starting simulation------
+
+---Initialization 1---
+
+V = 4680.000000
+N = 60
+fD = 0.500000
+a^2 = 0.040000
+---Initialization 1 complete---
+
+---Initialization 2---
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wpl.res
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Read wpl.res
+Read wpl.res
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Read wpl.res
+Read wpl.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Read wpl.res
+Read wpl.res
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Read wpl.res
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wabp.res
+Read wabp.res
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Read wpl.res
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Read wabp.res
+Read wpl.res
+Read wpl.res
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Read wabp.res
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Read wabm.res
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wabm.res
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Read wabm.res
+Read wabm.res
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Read wabp.res
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Read wabp.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Read wabp.res
+Read wpl.res
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Read wabp.res
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Read wabm.res
+Read wabm.res
+Read wabp.res
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Read wabp.res
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Read wabp.res
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wabp.res
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Read wabp.res
+Read wabp.res
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Processor 2 reading from line 1. x = [ 0.000000 15.017100 ]
+Read wabm.res
+Read wabm.res
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Read wabp.res
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Read wabm.res
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Read wabp.res
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Read wabp.res
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Read wabm.res
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Processor 9 reading from line 1. x = [ 0.000000 67.577100 ]
+Read wabm.res
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Read wabp.res
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wabm.res
+Read wabm.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Read wabm.res
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Read wabp.res
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Read wabp.res
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Read wabm.res
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wabp.res
+Read wabm.res
+Read wabp.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Read wabp.res
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Processor 7 reading from line 1. x = [ 0.000000 52.560000 ]
+Read wabm.res
+Read wabp.res
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Processor 0 reading from line 1. x = [ 0.000000 0.000000 ]
+Read wabm.res
+Read wabm.res
+Processor 1 reading from line 1. x = [ 0.000000 7.508570 ]
+Read wabm.res
+Initialized fields
+Read wabm.res
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Read wabp.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Read wabm.res
+Read wabm.res
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Read wabp.res
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Read wabp.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Read wabp.res
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Read wabm.res
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Read wabp.res
+Processor 6 reading from line 1. x = [ 0.000000 45.051400 ]
+Read wabm.res
+Read wabp.res
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Read wabm.res
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Read wabp.res
+Processor 3 reading from line 1. x = [ 0.000000 22.525700 ]
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Read wabm.res
+Read wabm.res
+Processor 5 reading from line 1. x = [ 0.000000 37.542900 ]
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Read wabm.res
+Read wabm.res
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Read wabp.res
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Read wabp.res
+Processor 11 reading from line 1. x = [ 0.000000 82.594300 ]
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Read wabm.res
+Read wabp.res
+Processor 8 reading from line 1. x = [ 0.000000 60.068600 ]
+Read wabm.res
+Processor 4 reading from line 1. x = [ 0.000000 30.034300 ]
+Read wabm.res
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Read wabm.res
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Read wabp.res
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Read wabm.res
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Read wabp.res
+Processor 10 reading from line 1. x = [ 0.000000 75.085700 ]
+Read wabm.res
+Total V_segment actual: 46746.018441
+Total V_segment theoretical: 46746.018441
+V - Vf: 0.000000
+rho0 = 10.056600
+V_1_exp_np = 15.853746
+V_1_fld_np = 0.000000
+nD = 762.559994
+nP = 2.000000
+n_exp_nr = 2
+nFP = 0.000000
+Volume fraction of particles excluding grafts = 0.006775
+Volume fraction of grafts                     = 0.021086
+Volume fraction of particles including grafts = 0.027861
+# of grafts per np = 55.134379
+Setting up Gaussian bonds
+---Initialization 2 complete---
+
+Initial densities calculated!
+Segment counts:
+nD * N = 45753.599613 integ(rhoda + rhodb) = 45753.599613
+nAH * Nah = 0.000000 integ(rhoha) = 0.000000
+Starting H: 3999.478943
+
+---Entering main loop---
+Iter: 0, H=3999.478940, -log(Qd)=5.309303, -log(Qg)=355.013220, err=8.5e-03
+Iter: 100, H=3999.478759, -log(Qd)=5.309299, -log(Qg)=355.008811, err=3.9e-10
+Iter: 200, H=3999.478588, -log(Qd)=5.309296, -log(Qg)=355.004538, err=3.7e-10
+Iter: 300, H=3999.478427, -log(Qd)=5.309294, -log(Qg)=355.000410, err=3.4e-10
+Iter: 400, H=3999.478276, -log(Qd)=5.309292, -log(Qg)=354.996424, err=3.2e-10
+Iter: 500, H=3999.478133, -log(Qd)=5.309291, -log(Qg)=354.992578, err=3.0e-10
+Iter: 600, H=3999.478000, -log(Qd)=5.309290, -log(Qg)=354.988869, err=2.9e-10
+Iter: 700, H=3999.477874, -log(Qd)=5.309289, -log(Qg)=354.985291, err=2.7e-10
+Iter: 800, H=3999.477755, -log(Qd)=5.309289, -log(Qg)=354.981842, err=2.5e-10
+Iter: 900, H=3999.477644, -log(Qd)=5.309289, -log(Qg)=354.978518, err=2.4e-10
+Iter: 1000, H=3999.477538, -log(Qd)=5.309290, -log(Qg)=354.975316, err=2.2e-10
+Iter: 1100, H=3999.477439, -log(Qd)=5.309291, -log(Qg)=354.972232, err=2.1e-10
+Iter: 1200, H=3999.477346, -log(Qd)=5.309292, -log(Qg)=354.969261, err=2.0e-10
+Iter: 1300, H=3999.477258, -log(Qd)=5.309293, -log(Qg)=354.966402, err=1.9e-10
+Iter: 1400, H=3999.477175, -log(Qd)=5.309294, -log(Qg)=354.963649, err=1.8e-10
+Iter: 1500, H=3999.477096, -log(Qd)=5.309295, -log(Qg)=354.961001, err=1.7e-10
+Iter: 1600, H=3999.477022, -log(Qd)=5.309297, -log(Qg)=354.958453, err=1.6e-10
+Iter: 1700, H=3999.476952, -log(Qd)=5.309298, -log(Qg)=354.956002, err=1.5e-10
+Iter: 1800, H=3999.476885, -log(Qd)=5.309300, -log(Qg)=354.953644, err=1.4e-10
+Iter: 1900, H=3999.476823, -log(Qd)=5.309302, -log(Qg)=354.951378, err=1.3e-10
+Iter: 2000, H=3999.476763, -log(Qd)=5.309304, -log(Qg)=354.949198, err=1.3e-10
+Iter: 2100, H=3999.476707, -log(Qd)=5.309306, -log(Qg)=354.947104, err=1.2e-10
+Iter: 2200, H=3999.476654, -log(Qd)=5.309307, -log(Qg)=354.945090, err=1.1e-10
+Iter: 2300, H=3999.476604, -log(Qd)=5.309309, -log(Qg)=354.943156, err=1.1e-10
+Iter: 2400, H=3999.476556, -log(Qd)=5.309311, -log(Qg)=354.941297, err=1.0e-10
+Iter: 2500, H=3999.476511, -log(Qd)=5.309313, -log(Qg)=354.939511, err=9.7e-11
+Tolerance reached. Error = 9.6557e-11
+---Main loop complete---
+
+------Completed simulation------
+
+The program finished at Wed Jun 12 11:18:46 2019
+.
