@@ -1,0 +1,52 @@
+# Main parameters
+30 30  Na, Nb length of each diblock's block
+0.0 40  phiAH, Nah
+0.2  a, smearing length, 0 for no smearing
+10.0566  rho0, bulk density
+
+# Interaction parameters
+0.501604  chiAB #between diblock
+-0.018209  chiBC #between part B and the graft
+1.13437  chiAC #between part A and the graft
+50.0   kappa, strength of compressibility potential
+
+#Init field cond flags (0=zero, -1=rand, -2=cosine, -3=sine, -4=factor of 1)
+-2 1.0 0 5.0  flag 1, prefactor, direction (x=0, y=1, z=2), # periods
+-4 6.0 1 1.0  flag 2, prefactor, direction (0, 1, 2), # periods
+
+# Simulation parameters
+625 675 675  Nx, # grid points in each direction
+65.0 70 18.0    L, box dimension in each direction
+0.01000 lam_pl, step size on the w+ fields
+0.00200  lam_mi, step size on the w- fields
+1000000    itermax, max. # of iterations
+100       print_freq
+50 0  sample_freq, sample_wait
+1E-10  error_tol
+1       Update scheme (0 = Euler, 1=1S)
+0        do_CL
+
+# Film parameters
+0        do_film flag, creates walls in dim-1 direction
+2.0 0.5  Wall thickness, interfacial width
+0.5 0.5  Top wall interaction parameters, lambda_A, lambda_B
+0.5 0.5  Bottom wall interaction parameters, lambda_A, lambda_B
+
+# Channel wall parameters
+0 0 2          do_channel flag
+2.5 1.0 0.2    wall_width channel_width xi
+
+# Nanoparticle parameters
+1       n_exp_nr, number of explicit nanoparticles
+0                do_fld_np, 1 for field-based particles, 0 for no
+2                np_type, 1=sphere, 2=nanorod
+0                np_chem, 0=neutral, 1=A
+1.43          sigma
+9             Ng
+12               Nu, number of points per pi for spherical integration
+0.0              np_frac, volume fraction of field-based nps
+1.2918 6.1363 0.2      L_nr, R_nr, xi_nr for all nps
+0.5 0.5 0.5   Nanorod center x, y, z for np 1
+0.7071067811865476 0.7071067811865475 0  Nanorod orientation vector x, y, z for np 1
+0.5 0.5 0.5   Nanorod center x, y, z for np 2
+0.7071067811865476 0.7071067811865475 0  Nanorod orientation vector x, y, z for np 2
